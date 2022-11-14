@@ -8,7 +8,6 @@ for (i = 1; i <= roadMines.length; ++i){
         a = a + 1
         b = b + 1 }
     if (roadMines[i] == 0) {b = b + 1}
-    
     console.log('Сейчас танк на ' + i  + ' шагу') 
     if (a==1){
         console.log('Наводчик контужен')
